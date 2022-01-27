@@ -4,17 +4,16 @@
 @import url(./menu.css);
 @import url(./anchor.css);
 @import url(./main.css);
-@import url(./imges/bg_001.jpg);
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body {
-    width: 100vw;
+    width: 40vw;
     height: 100vh;
     font-family: "Lato";
-    background-image: background-img;
+    background-image: url(../images/bg_001.jpg);
 }
 
 
