@@ -9,4 +9,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Lato";
+}
+
 
