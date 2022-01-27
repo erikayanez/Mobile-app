@@ -1,15 +1,33 @@
 .container1 {
+    padding-left:20%; 
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 80%;
     height: 50%;
 }
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    width: 30%;
+}
+
 h1 {
     display: flex;
     justify-content: center;
     font-family: "Lato";
-    font-size: 20px;
+    font-size: 50px;
     color: var(--company-text-color);
 }
 
@@ -19,6 +37,7 @@ p {
     align-content: center;
     font-family: "Lato";
     color: var(--company-text-color);
+    font-size: 20px;
 }
 
 .buttons {
@@ -48,28 +67,25 @@ p {
     width: 8rem;
     height: 3rem;
 }
-
-.container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 50%;
-}
-
 img {
     display: flex;
-    justify-content: space-around;
-    width: 100%; 
-}
-
-div img {
-    padding: 10px;
-}
-
-.container1, .container2 {
-    display: flex;
     justify-content: center;
-    align-content: center;
-    flex-direction: row;
+    width: 60%; 
+    border: 2px red dashed;
 }
+
+.photo1 {
+    width: 50vw;
+    height: 30vh;
+    border: 2px solid blue;
+}
+.photo2 {
+    width: 50vw;
+    height: 30vh;
+    border: 2px solid blue;
+}
+/* footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(77, 72, 72, 0.7);
+} */
