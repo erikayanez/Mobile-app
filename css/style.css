@@ -4,6 +4,7 @@
 @import url(./menu.css);
 @import url(./anchor.css);
 @import url(./main.css);
+@import url(./imges/bg_001.jpg);
 *{
     margin: 0px;
     padding: 0px;
@@ -13,6 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: "Lato";
+    background-image: background-img;
 }
 
 
