@@ -6,6 +6,14 @@ header {
     height: 20vh;
 }
 
+a {
+    display: flex;
+    justify-content: center;
+    font-family: "Lato";
+    font-size: 20px; 
+    color: var(--company-text-color);
+}
+
 nav {
     padding: 5px;
     display: flex;
@@ -13,18 +21,11 @@ nav {
     align-items: flex-end;
     justify-content: space-between;
 }
-
-nav ul li a  :nth-child(){
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-}
 header nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    text-decoration: none;
-   
+    text-decoration: none; 
 } 
 
 header nav ul {
@@ -32,15 +33,9 @@ header nav ul {
     justify-content: space-between;
 }
 
-header nav ul li {
+
+nav ul li a  :nth-child(){
     display: flex;
     justify-content: space-evenly;
-}
-a {
-    display: flex;
-   
-    align-items: flex-end;
-    font-family: "Lato";
-    font-size: 20px; 
-    color: var(--company-text-color);
+    flex-wrap: nowrap;
 }
