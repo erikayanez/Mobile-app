@@ -1,19 +1,35 @@
 header {
     display: flex;
     justify-content: center;
-    margin: 10px 20px 10px 10px auto;
-    padding-top: 95px;
+    align-items: center;
+    color: var(--company-text-color);
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
     width: 100vw;
-    height: 25vh;
-
+    height: 20vh;
     border: 2px dashed greenyellow;
 }
 
 header div {
-    position: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80vw;
-    height: 15vh;
-    border: 2px goldenrod dashed;
+    position: relative;
+    left: 15rem;
+    top: 3rem;
+    width: 50rem; 
+    padding-left: ;
+    border: 2px solid blue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+ 
+}
+
+header nav ul li {
+    display: inline;
+    list-style: none;
+    color: white;
+
 }

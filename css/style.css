@@ -12,7 +12,6 @@
 body {
     width: 100vw;
     height: 100vh;
-    font-family: "Lato";
     background-image: url(../images/bg_001.jpg);
     border: 4px dashed orangered;
 }
