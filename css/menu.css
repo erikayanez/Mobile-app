@@ -1,5 +1,19 @@
 header {
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px 10px 10px auto;
+    padding-top: 95px;
     width: 100vw;
-    height: 30vh;
+    height: 25vh;
+
     border: 2px dashed greenyellow;
+}
+
+header div {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 15vh;
+    border: 2px goldenrod dashed;
 }
