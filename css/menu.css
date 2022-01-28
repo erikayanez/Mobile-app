@@ -2,10 +2,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--company-text-color);
-    font-size: 2rem;
-    font-weight: 800;
-    text-decoration: none;
     width: 100vw;
     height: 20vh;
     border: 2px dashed greenyellow;
@@ -16,20 +12,15 @@ header div {
     left: 15rem;
     top: 3rem;
     width: 50rem; 
-    padding-left: ;
     border: 2px solid blue;
 }
 
 nav ul {
     display: flex;
     justify-content: space-around;
-    color: white;
- 
 }
 
 header nav ul li {
     display: inline;
     list-style: none;
-    color: white;
-
 }
