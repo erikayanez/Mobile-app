@@ -1,27 +1,21 @@
+
 .container1 {
-    padding-left:20%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 50%;
+    margin: 10px 1px 10px 10px;
+    position: flex;
+    align-content: wrap;
+    width: 100vw;
+    height: 70vh;
+    border: 2px dashed black;
 }
 
-.container2 {
-    display: flex;
-    flex-direction: row;
+ .content {
+    margin-top: 6rem;
+    margin-left: 20rem;
+    position: flex;
     justify-content: center;
-    align-items: center;
-    width: 25%;
-    height: 40%;
-}
-
-.container3 {
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items: center;
-    width: 30%;
+    width: 30vw;
+    height: 30vh;
+    border: 2px dashed white;
 }
 
 h1 {
@@ -41,10 +35,35 @@ p {
     font-size: 20px;
 }
 
-.buttons {
-    display: flex;
-    justify-content: space-around;
+.photo1 img {
+    position: absolute;
+    left: 75rem;
+    bottom: 10rem;
+    width: 13vw;
+    height: 50vh;
+    border: 2px solid yellow;
 }
+
+
+.photo2 img{
+    position: absolute;
+    left: 67rem;
+    bottom: 8rem;
+    justify-content: space-around;
+    width: 13vw;
+    height: 50vh;
+    border: 2px solid blue;
+}
+
+.buttons {
+    margin-left: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+    height: 10vh;
+    border: 2px solid tomato;
+}
+
 #more {
     display: flex;
     justify-content: center;
@@ -68,27 +87,4 @@ p {
     width: 8rem;
     height: 3rem;
 }
-img {
-    display: flex;
-    justify-content: center;
-    width: 60%; 
-    border: 2px red dashed;
-}
 
-.photo1 {
-    display: flex;
-    justify-content: flex-end;
-    width: 50vw;
-    height: 30vh;
-    border: 2px solid blue;
-}
-.photo2 {
-    width: 30vw;
-    height: 50vh;
-    border: 2px solid blue;
-}
-/* footer {
-    width: 100vw;
-    height: 15vh;
-    background-color: rgb(77, 72, 72, 0.7);
-} */
