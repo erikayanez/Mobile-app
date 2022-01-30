@@ -1,42 +1,42 @@
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 100vw;
     height: 20vh;
     border: 2px dashed greenyellow;
 }
 
 header .logo {
     display: flex;
-    justify-content:flex-start;
+    justify-content: center;
     align-items: center;
-    width: 12vw;
-    height: 12vh;
     border: 2px solid red;
 }
 
+
 .logo .img1 {
     display: flex;
-    justify-content: flex-start;
     width: 10vw;
     height: 12vh;
 }
 
 header div {
     display: flex;
-    justify-content: center;
-    width: 40vw; 
+    justify-content: flex-start;
+    align-items: center;
+    width: 45vw; 
+    height: 5vh;
     border: 2px solid blue;
 }
 
 nav ul {
     display: flex;
     justify-content: space-between;
-    
+    align-items: flex-start; 
 }
+    
 
 header nav ul li {
     display: inline;
     list-style: none;
-}
+} 
