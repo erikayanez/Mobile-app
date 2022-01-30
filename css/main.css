@@ -4,7 +4,6 @@
     align-items: center;
     width: 100vw;
     height: 70vh;
-    border: 2px dashed black;
 }
 
  .content {
@@ -14,7 +13,6 @@
     justify-content: center;
     width: 30vw;
     height: 30vh;
-    border: 2px dashed white;
 }
 
 h1 {
@@ -37,21 +35,19 @@ p {
 .photo1 img {
     position: absolute;
     left: 75rem;
-    bottom: 10rem;
+    bottom: 12rem;
     width: 13vw;
     height: 50vh;
-    border: 2px solid yellow;
 }
 
 
 .photo2 img{
     position: absolute;
     left: 67rem;
-    bottom: 8rem;
+    bottom: 11rem;
     justify-content: space-around;
     width: 13vw;
     height: 50vh;
-    border: 2px solid blue;
 }
 
 .buttons {
@@ -60,7 +56,6 @@ p {
     justify-content: space-between;
     width: 30vw;
     height: 10vh;
-    border: 2px solid tomato;
 }
 
 #more {

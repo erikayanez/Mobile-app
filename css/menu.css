@@ -3,14 +3,12 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 20vh;
-    border: 2px dashed greenyellow;
 }
 
 header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 
 
@@ -26,7 +24,6 @@ header div {
     align-items: center;
     width: 45vw; 
     height: 5vh;
-    border: 2px solid blue;
 }
 
 nav ul {
