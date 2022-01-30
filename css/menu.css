@@ -7,17 +7,33 @@ header {
     border: 2px dashed greenyellow;
 }
 
+header .logo {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 12vw;
+    height: 12vh;
+    border: 2px solid red;
+}
+
+.logo .img1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 10vw;
+    height: 12vh;
+}
+
 header div {
-    position: relative;
-    left: 15rem;
-    top: 3rem;
-    width: 50rem; 
+    display: flex;
+    justify-content: center;
+    width: 40vw; 
     border: 2px solid blue;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 header nav ul li {
