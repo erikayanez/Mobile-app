@@ -1,15 +1,13 @@
 
 .container1 {
-    margin: 10px 1px 10px 10px;
     display: flex;
-    align-items: center
+    align-items: center;
     width: 100vw;
     height: 70vh;
     border: 2px dashed black;
 }
 
  .content {
-    margin-top: 6rem;
     margin-left: 20rem;
     display: flex;
     flex-direction: column;
@@ -57,10 +55,10 @@ p {
 }
 
 .buttons {
-    margin-left: 25rem;
+    margin-left: 20rem;
     display: flex;
-    justify-content: space-evenly;
-    width: 20vw;
+    justify-content: space-between;
+    width: 30vw;
     height: 10vh;
     border: 2px solid tomato;
 }
@@ -69,23 +67,25 @@ p {
     display: flex;
     justify-content: center;
     background-color: green;
+    border: none;
     border-radius: 3%;
     color: var(--company-text-color);
     font-size: 17px;
-    font-weight: 800;
-    width: 8rem;
-    height: 3rem;
+    font-weight: 900;
+    width: 12vw;
+    height: 6vh;
 }
 
 #send {
     display: flex;
     justify-content: center;
     background-color: rgb(11, 107, 172);
+    border: none;
     border-radius: 3%;
     color: var(--company-text-color);
     font-size: 17px;
-    font-weight: 800;
-    width: 8rem;
-    height: 3rem;
+    font-weight: 900;
+    width: 12vw;
+    height: 6vh;
 }
 

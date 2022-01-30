@@ -2,4 +2,5 @@ a {
     color: var(--company-text-color);
     font-size: 1rem;
     text-decoration: none;
+    padding: 1rem;
 }
